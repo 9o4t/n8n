@@ -1,0 +1,7 @@
+# Imported when the n8n service is generated from this repo.
+# The marketplace template still sets image n8nio/n8n + Postgres refs.
+
+[deploy]
+healthcheckPath = "/healthz"
+healthcheckTimeout = 60
+restartPolicyType = "ON_FAILURE"
